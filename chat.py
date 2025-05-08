@@ -8,7 +8,7 @@ import io
 
 
 # OpenAI API Key (Set securely in environment variables or Streamlit secrets)
-api_key_v = "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"
+api_key_v = "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"
 client = openai.OpenAI(api_key=api_key_v)  # Create a client instance
 
 # Function to encode an image to base64 format
